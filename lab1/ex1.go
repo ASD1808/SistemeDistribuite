@@ -8,9 +8,9 @@ import (
 )
 
 func main() {
-	//cu el citim
+	
 	scanner := bufio.NewScanner(os.Stdin)
-	//facem citirea
+	
 	scanner.Scan()
 
 	v := scanner.Text()
